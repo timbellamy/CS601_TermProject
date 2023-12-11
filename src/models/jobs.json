@@ -1,0 +1,25 @@
+[
+  {
+    "company": "U-Haul",
+    "title": "Software Developer",
+    "location": "Remote",
+    "dates": "Aug 2021 - Present",
+    "duties":
+     "\u2022 Integrated U-Haul’s asset management system with smart lock security providers using RESTful API. Maintained and added new features to Uhaul's Asset Management Software Suite,Created new unit test for each code change submitted. Participated in Scrum Events.Worked with Quality Assurance team to get work items through testing."
+
+  },
+  {
+    "company": "TrackMan",
+    "title": "Network Support Technician 2",
+    "location": "Scottsdale, Az",
+    "dates": "Aug 2019 - Aug 2021",
+    "duties": "• Created an extraction tool using .NET to export data from Zendesk ticketing system into a MS SQL database. Provided customer support and guidance on using TrackMan’s RESTful API to interface with systems. Performed root cause analysis for hardware and software related issues."
+  },
+  {
+    "company": "American Traffic Solutions",
+    "title": "Field Service Support Technician",
+    "location": "Remote",
+    "dates": "Oct 2007 - Aug 2019",
+    "duties": "• Performed firmware rollouts. Performed root cause analysis for any software related issues. Provided excellent technical troubleshooting, incident resolution and communication to all interacting teams."
+  }
+]

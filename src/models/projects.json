@@ -1,0 +1,30 @@
+[
+  {
+    "name": "Calculator",
+    "description": "Present the user a series of prompts using Java Script. The program will take in the user's reposes and use them to process variest actions.",
+    "git": "https://github.com/timbellamy/CS601_HW3",
+    "site": "https://tb-hw3.netlify.app/",
+    "thumbnail": "hw3.png"
+  },
+  {
+    "name": "Form Submission",
+    "description": "Present the user a form to fill out. Before form submission the form should be validated and display any errors to the user to correct before submission is allowed.",
+    "git": "https://github.com/timbellamy/CS601_HW4",
+    "site": "https://tb-hw4.netlify.app/",
+    "thumbnail": "hw4.png"
+  },
+  {
+    "name": "Fetch Request",
+    "description": "Provided the user the ability to view an education history table. This program uses Java promises to retrieve an file and read into an list of college degrees.",
+    "git": "https://github.com/timbellamy/CS601_HW5",
+    "site": "https://tb-hw5.netlify.app/",
+    "thumbnail": "hw5.png"
+  },
+  {
+    "name": "Texas Skylines",
+    "description": "Display a series of images that shows depicts a city skyline from the past and present. When the user hovers over the image it will change to the an image of the cities present skyline.",
+    "git": "https://github.com/timbellamy/CS601_HW6",
+    "site": "https://tb-hw6.netlify.app/",
+    "thumbnail": "hw6.png"
+  }
+]
