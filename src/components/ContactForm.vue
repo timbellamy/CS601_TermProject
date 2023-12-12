@@ -8,11 +8,6 @@ export default {
       message: ""
     }
   },
-  methods:{
-    sendEmail(){
-
-    }
-  }
 }
 </script>
 
