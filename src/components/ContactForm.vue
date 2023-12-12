@@ -1,5 +1,4 @@
 <script>
-import { Handler } from "@netlify/functions";
 export default {
   name: "ContactForm",
   data(){
