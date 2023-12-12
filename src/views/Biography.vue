@@ -44,9 +44,4 @@ export default {
 </template>
 
 <style scoped>
-section{
-  border: 1px solid black;
-  padding: 30px;
-  box-shadow: 1em 1em 1em lightslategrey;
-}
 </style>

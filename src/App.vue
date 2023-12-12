@@ -35,23 +35,22 @@ export default {
 <style>
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
+  color: #e0e1dd;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  color: #2c3e50;
-  display: flex;
-  flex-flow: row nowrap;
   min-height: 100%;
   min-width: 100%;
+  display: flex;
+  flex-flow: column wrap;
 }
 #app-container{
-  height: 100%;
-  width: 100%;
-  background-color: sandybrown;
+  background-color: #1b263b;
 }
 #components{
-  width: 60%;
+  display: flex;
+  justify-content: center;
   margin: auto;
-  align-self: center;
-
+  width: 50%;
+  padding-top: 5em;
 }
 </style>

@@ -25,8 +25,6 @@ export default {
 
 <style scoped>
 .introduction{
-  border: 1px solid black;
-  box-shadow: 1em 1em 1em lightslategrey;
   display: flex;
   align-items: center;
   justify-content: space-around;

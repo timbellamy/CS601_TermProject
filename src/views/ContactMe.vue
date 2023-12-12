@@ -17,8 +17,7 @@ export default {
 <template>
   <div class="contact">
     <h1>Contact Me</h1>
-    <p></p>
-    <contact-form />
+    <a href="mailto: tbellamy@bu.edu">Send Email</a>
     <div class="logo_grp">
       <a href="https://github.com/timbellamy">
         <img class="img_git" :src="GitLogo" alt="" />
@@ -36,10 +35,13 @@ export default {
   flex-flow: column wrap;
   justify-self: center;
   align-self: center;
-  width: 45vw;
+  justify-items: center;
+  align-items: center;
+  width: 35vw;
   border: 1px black solid;
   box-shadow: 1em 1em 1em lightslategrey;
   padding: 50px;
+  background-color: #778da9;
 }
 .logo_grp{
   display: flex;

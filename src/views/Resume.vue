@@ -26,22 +26,28 @@ export default {
 </script>
 
 <template>
-  <div class="work">
-    <content-table
-        :headers="getHeader(jobs[0])"
-        :table-data="jobs"
-        :title="'Work Experience'"/>
-  </div>
-  <div class="education">
-    <content-table
-        :headers="getHeader(education[0])"
-        :table-data="education"
-        :title="'Education'"/>
+  <div class="resume">
+    <div class="work">
+      <content-table
+          :headers="getHeader(jobs[0])"
+          :table-data="jobs"
+          :title="'Work Experience'"/>
+    </div>
+    <div class="education">
+      <content-table
+          :headers="getHeader(education[0])"
+          :table-data="education"
+          :title="'Education'"/>
+    </div>
   </div>
 </template>
 
 <style scoped>
-div{
-  margin: 40px;
+.resume{
+  display: flex;
+  flex-flow: column nowrap;
+}
+.education{
+  margin: 25px 0px 45px 0px;
 }
 </style>

@@ -35,6 +35,12 @@ export default {
 </template>
 
 <style scoped>
+form{
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  width: 20vw;
+}
 .form-input{
   display: flex;
   flex-flow: column nowrap;
@@ -47,6 +53,8 @@ button{
   padding: 10px;
   background-color: lightskyblue;
   transition: box-shadow .4s;
+  align-self: flex-end;
+  width: 10em;
 }
 button:hover{
   box-shadow: 1em 1em 1em lightslategrey;

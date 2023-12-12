@@ -28,24 +28,21 @@ export default {
 
 <template>
   <nav class="navbar">
-    <img src="@/assets/pexels-nimit-kansagra-4509131.jpg" alt=""/>
-
     <div class="menu">
-      <span class="menu-button">Menu</span>
-      <ul class="menu-content">
-        <li>
+      <ul class="navbar-links">
+        <li class="navbar-item">
           <a @click="ChangePage(markRaw(Home))">Home</a>
         </li>
-        <li>
+        <li class="navbar-item">
           <a @click="ChangePage(markRaw(Biography))">About</a>
         </li>
-        <li>
+        <li class="navbar-item">
           <a @click="ChangePage(markRaw(Resume))">Resume</a>
         </li>
-        <li>
+        <li class="navbar-item">
           <a @click="ChangePage(markRaw(ContactMe))">Contact</a>
         </li>
-        <li>
+        <li class="navbar-item">
           <a @click="ChangePage(markRaw(Projects))">Projects</a>
         </li>
       </ul>
@@ -55,38 +52,28 @@ export default {
 </template>
 
 <style scoped>
-.navbar img{
-  width: 10vw;
-  height: 10vh;
-  align-self: flex-start;
-}
-
 .navbar{
-  width: 10vw;
-  min-height: 100%;
-  background: rgba(255, 255, 255, 0.1);
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-right: 2em;
 }
 
-.navbar .menu-button{
-  display: none;
+.navbar-links{
+  display: flex;
+  list-style-type: none;
+  cursor: pointer;
 }
 
-.navbar .menu{
-  margin-top: 10vh;
-}
-
-.navbar .menu li{
-  padding-bottom: 3em;
-}
-
-.navbar .menu a{
-  font-size: 20px;
+.navbar-item a{
+  display: inline-block;
+  padding: 10px 15px;
   text-decoration: none;
 }
 
-.navbar .menu :hover{
+.navbar-item a:hover{
+  text-decoration: solid underline #778da9 3px;
+  margin-top: 4px;
 }
-li{
-  list-style-type: none;
-}
+
 </style>

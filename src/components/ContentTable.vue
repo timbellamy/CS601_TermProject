@@ -30,6 +30,7 @@ table{
   text-align: left;
   width: 50rem;
   box-shadow: 1em 1em 1em lightslategrey;
+  background-color: #778da9;
 }
 td, th{
   padding: 0.625em;
