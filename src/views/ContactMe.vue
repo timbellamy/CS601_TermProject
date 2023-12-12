@@ -18,7 +18,7 @@ export default {
 <template>
   <div class="contact">
     <h1>Contact Me</h1>
-    <a href="mailto: 'tbellamy@bu.edu">Send Email</a>
+    <a href="mailto: tbellamy@bu.edu">Send Email</a>
     <div class="logo_grp">
       <a href="https://github.com/timbellamy">
         <img class="img_git" :src="GitLogo" alt="" />
