@@ -2,6 +2,7 @@
 import ContactForm from '@/components/ContactForm.vue';
 import GitLogo from '@/assets/icons/github-mark.svg';
 import LinkedInLogo from '@/assets/icons/LI-Logo.png';
+
 export default {
   name: "ContactMe",
   components: {ContactForm},
@@ -17,7 +18,7 @@ export default {
 <template>
   <div class="contact">
     <h1>Contact Me</h1>
-    <a href="mailto: tbellamy@bu.edu">Send Email</a>
+    <contact-form />
     <div class="logo_grp">
       <a href="https://github.com/timbellamy">
         <img class="img_git" :src="GitLogo" alt="" />

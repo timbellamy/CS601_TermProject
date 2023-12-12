@@ -1,4 +1,5 @@
 <script>
+import { Handler } from "@netlify/functions";
 export default {
   name: "ContactForm",
   data(){
@@ -9,9 +10,28 @@ export default {
     }
   },
   methods:{
-    sendEmail(){
+/*    sendEmail(){
+      await fetch(`${process.env.URL}/.netlify/functions/emails/subscribed`, {
+        headers: {
+          "netlify-emails-secret": process.env.NETLIFY_EMAILS_SECRET as string,
+        },
+        method: "POST",
+        body: JSON.stringify({
+          from: requestBody.inviteeEmail,
+          to: requestBody.subscriberEmail,
+          subject: "You've been subscribed",
+          parameters: {
+            name: requestBody.subscriberName,
+            email: requestBody.subscriberEmail,
+          },
+        }),
+      });
 
-    }
+      return {
+        statusCode: 200,
+        body: JSON.stringify("Subscribe email sent!"),
+      };
+    }*/
   }
 }
 </script>
